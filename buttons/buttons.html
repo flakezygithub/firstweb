@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>Buttons exercise</title>
+
+    </head>
+
+    <body>
+
+<style>
+
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        width: 100px;
+        height: 35px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.75;
+    }
+
+    .subscribe-button:active {
+        opacity: 0.5;
+    }
+       
+    .join-button {
+            background-color: white;
+            color: cornflowerblue;
+            border-color: cornflowerblue;
+            border-style: solid;
+            border-width: 1px;
+            width: 70px;
+            height: 35px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.2s,
+            color 0.2s,
+            opacity 0.2s;
+        }
+
+        .join-button:hover {
+            background-color: cornflowerblue;
+            color: white;
+        }
+
+        .join-button:active {
+            opacity: 0.75;
+        }
+
+.tweet-button {
+    background-color: rgb(2, 160, 255);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 75px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.2s,
+    opacity 0.2s;
+
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active {
+    opacity: 0.8;
+}
+
+.first-phrase {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.mychannel-button {
+    background-color: white;
+    color: red;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.35s,
+    color 0.35s,
+    border-color 0.35s;
+    
+}
+
+    .mychannel-button:hover {
+background-color: red;
+color: white;
+border-color: white;
+    }
+
+    .mychannel-button:active {
+opacity: 0.5;
+    }
+    
+
+    </style>
+
+<p class="first-phrase">Ejemplo de como hacer botones bonitos</p>
+
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
+<a href="https://www.youtube.com/channel/UC3079cmvuAWdLvhsfJvPBwA" target="_blank">
+    <button class="mychannel-button">My Youtube</button>
+  </a>
+
+</body>
+
+</html>
